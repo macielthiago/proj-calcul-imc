@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+:root
+{
+    --cor0: #97bff3;
+    --cor1: #1993e4;
+    --cor2: #134fd1;
+    --cor3: #05299e;
+    --cor4: #030d68;
+    --cor5: #030633;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    min-height: 100px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: white;
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);
+}
+
+/*links*/
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.473);
+}
+
+nav > a{
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor4);
+}
+
+/*conteudo principal*/
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1{
+    color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+main p{
+    color: rgba(12, 12, 12, 0.678);
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+
+input#altura {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(12, 12, 12, 0.781);
+    border-radius: 10px;
+}
+input#peso {
+    width: 100px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(12, 12, 12, 0.781);
+    border-radius: 10px;
+}
+input#botão {
+    background-color: var(--cor2);
+    color: white;
+    font-size: 1em;
+    width: 110px;
+    padding: 10px;
+    margin: 20px 0px;
+    border: 1px solid rgba(46, 46, 248, 0.781);
+    border-radius: 10px;
+}
+input#botão:hover {
+    background-color: var(--cor3);
+}
+small {
+    color: rgba(46, 46, 248, 0.781);
+}
+
+
+label {
+    font-size: 0.8em;
+}
+
+/*tabela*/
+
+table{
+    color: rgba(12, 12, 12, 0.671);
+    width: 600px;
+    border-collapse: collapse;
+}
+
+div#container {
+    overflow-x: auto;
+}
+
+caption {
+    background-color: var(--cor2);
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+td {
+    font-size: 0.7em;
+    padding: 6px;
+    border-bottom: 1px solid rgba(12, 12, 12, 0.815);
+}
+td.dado {
+    text-align: center;
+}
+
+#cortr {
+    color: var(--cor3);
+}
+
+div#res {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--cor2);
+    color: white;
+    width: 150px;
+}
+
+p#tres {
+    color: white;
+}
